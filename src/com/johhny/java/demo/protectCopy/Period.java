@@ -13,10 +13,14 @@ public class Period {
 	private final Date end;
 
 	public Date getStart() {
+		// 如果外部对象调用 getStart().setYear(1); 也会导致同样问题
+		// 可改为 return new Date(start.getTime())
 		return start;
 	}
 
 	public Date getEnd() {
+		// 如果外部对象调用 getEnd().setYear(1); 也会导致同样问题
+		// 可改为 return new Date(end.getTime())
 		return end;
 	}
 
