@@ -1,1 +1,3 @@
-2013-4-12 Ìí¼Ó±£»¤ĞÔ¿½±´Àı×Ó com.johhny.java.demo.protectCopy.Period
+2013-4-12 
+æ·»åŠ ä¿æŠ¤æ€§æ‹·è´ä¾‹å­ com.johhny.java.demo.protectCopy.Period
+æ·»åŠ ä½¿ç”¨æ„é€ å™¨ç”Ÿæˆbeanä¾‹å­ com.johhny.java.demo.beanInit.BuildBean
