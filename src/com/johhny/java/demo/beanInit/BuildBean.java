@@ -11,6 +11,7 @@ public class BuildBean {
 		this.age = build.getAge();
 	}
 
+	@Deprecated
 	private BuildBean() {
 	}
 
