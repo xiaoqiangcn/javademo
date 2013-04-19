@@ -19,6 +19,7 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectOutputStream;
+import java.util.Collections;
 
 /**
  * 类 Write 的实现描述：TODO 类实现描述
@@ -33,10 +34,11 @@ public class Write {
     public static void main(String[] args) {
         User u = new User();
         u.setId(11);
-        u.setAge(11);
         u.setName("test");
-        u.setSex(0);
+        u.setSex(11);
+        u.setAge(22);
         save(u);
+        
 
     }
 
@@ -52,6 +54,7 @@ public class Write {
             fout = new FileOutputStream(dataFile);
             ObjectOutputStream oos = new ObjectOutputStream(fout);
             oos.writeObject(user);
+            System.out.println("Write  success !~~~" + user);
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
