@@ -22,7 +22,7 @@ public class ThreadTest {
 			
 			System.out.println("重复---------" + i);
 			
-			Thread.yield();
+			
 		}
 		
 	} 
