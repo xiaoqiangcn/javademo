@@ -1,0 +1,16 @@
+1. 实例方法同步块等同于实例方法内的同步快:块，即 俩者公用的时候单个实例在多个线程中会同步， 如果同步块使用的不是this，俩者就不会阻塞
+public synchronized void add(long value) {
+}
+
+public  void add(long value) {
+	synchronized(this){
+	}
+}
+2. 静态方法同步块等同于实例方法内的同步块， 即 俩者公用的时候单个实例在多个线程中会同步，如果同步块使用的不是 Test.Class，俩者就不会阻塞
+public static synchronized void add(long value) {
+}
+
+public  void add(long value) {
+	synchronized(Test.class){
+	}
+}
