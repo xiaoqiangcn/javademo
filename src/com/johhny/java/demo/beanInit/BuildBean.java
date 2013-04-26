@@ -1,5 +1,10 @@
 package com.johhny.java.demo.beanInit;
 
+/**
+ * 
+ * @author wb_zhiqiang.xiezq
+ *
+ */
 public class BuildBean {
 	private int id;
 	private String name;
