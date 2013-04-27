@@ -4,11 +4,6 @@ package com.johhny.java.demo.btrace;
 import com.sun.btrace.annotations.*;
 import static com.sun.btrace.BTraceUtils.*;
 
-/**
- * 
- * @author wb_zhiqiang.xiezq
- *
- */
 @BTrace
 public class BTraceScript2 {
    @OnMethod(
