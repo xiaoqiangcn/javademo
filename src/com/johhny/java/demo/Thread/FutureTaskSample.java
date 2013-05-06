@@ -3,6 +3,7 @@ package com.johhny.java.demo.Thread;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask;
+import java.util.concurrent.TimeUnit;
 
 /**
  * 
@@ -24,6 +25,12 @@ public class FutureTaskSample {
 		@Override
 		public void run() {
 			// TODO Auto-generated method stub
+			try {
+				TimeUnit.SECONDS.sleep(3);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 			
 		}
 	}, getPageContent());

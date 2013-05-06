@@ -43,7 +43,7 @@ class Student implements Runnable,Delayed{
 	}
 
 	@Override
-	public int compareTo(Delayed o) {
+	public int compareTo(Delayed o) { 
 		Student that = (Student) o;
 		return submitTime > that.submitTime?1:(submitTime < that.submitTime ? -1 : 0);
 	}

@@ -20,7 +20,7 @@ public class ThreadTest {
 				i = incrementAndGet();
 			}
 			
-			System.out.println("重复---------" + i);
+			System.out.println("repeat-------" + i);
 			
 			
 		}
@@ -35,7 +35,7 @@ public class ThreadTest {
 		for(int i = 0; i < 10 ; i++){
 			executor.execute(new Count());
 		}
-		System.out.println("开始执行---");
+		System.out.println("runing---");
 		executor.shutdown();
 	}
 }
