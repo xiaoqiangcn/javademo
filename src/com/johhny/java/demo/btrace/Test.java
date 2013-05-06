@@ -8,8 +8,9 @@ public class Test {
 
 	public static void main(String args[]) {
 		System.out.println("start");
-		Counter c = new Counter();
+		
 		while (true) {
+			Counter c = new Counter();
 			try {
 				TimeUnit.SECONDS.sleep(1);
 			} catch (InterruptedException e) {
