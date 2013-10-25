@@ -13,6 +13,7 @@ public class Test {
 		user.setSex(1);
 		user.setName("name");
 		System.out.println(user);
+		System.out.println(System.identityHashCode(user));
 	}
 
 }
