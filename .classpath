@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="hessian-4.0.7-src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk-1.6.16"/>
 	<classpathentry kind="lib" path="lib/commons-codec-1.2.jar"/>
 	<classpathentry kind="lib" path="lib/commons-httpclient-3.1.jar"/>
@@ -12,5 +13,28 @@
 	<classpathentry kind="lib" path="lib/reflectasm-1.05.jar"/>
 	<classpathentry kind="lib" path="lib/btrace-client.jar"/>
 	<classpathentry kind="lib" path="lib/lombok.jar" sourcepath="C:/Users/wb_zhiqiang.xiezq/.m2/repository/org/projectlombok/lombok/0.11.8/lombok-0.11.8-sources.jar"/>
+	<classpathentry kind="lib" path="lib_hsf/hsf.app.spring-1.4.9.3.jar"/>
+	<classpathentry kind="lib" path="lib_hsf/hsf.lib-1.4.9.3.jar"/>
+	<classpathentry kind="lib" path="lib_hsf/hsf.notify.spring-1.4.9.3.jar"/>
+	<classpathentry kind="lib" path="lib_hsf/hsf.service.address-1.4.9.3.jar"/>
+	<classpathentry kind="lib" path="lib_hsf/hsf.service.config-1.4.9.3.jar"/>
+	<classpathentry kind="lib" path="lib_hsf/hsf.service.grouping-1.4.9.3.jar"/>
+	<classpathentry kind="lib" path="lib_hsf/hsf.service.info-1.4.9.3.jar"/>
+	<classpathentry kind="lib" path="lib_hsf/hsf.service.metadata-1.4.9.3.jar"/>
+	<classpathentry kind="lib" path="lib_hsf/hsf.service.monitor.habo-1.4.9.3.jar"/>
+	<classpathentry kind="lib" path="lib_hsf/hsf.service.process-1.4.9.3.jar"/>
+	<classpathentry kind="lib" path="lib_hsf/hsf.service.route.random-1.4.9.3.jar"/>
+	<classpathentry kind="lib" path="lib_hsf/hsf.service.routeruleparser.groovy-1.4.9.3.jar"/>
+	<classpathentry kind="lib" path="lib_hsf/hsf.service.routeruleparser.methodname-1.4.9.3.jar"/>
+	<classpathentry kind="lib" path="lib_hsf/hsf.service.rpc.common-1.4.9.3.jar"/>
+	<classpathentry kind="lib" path="lib_hsf/hsf.service.rpc.tbremoting-1.4.9.3.jar"/>
+	<classpathentry kind="lib" path="lib_hsf/hsf.service.tbremoting.invoke.callback-1.4.9.3.jar"/>
+	<classpathentry kind="lib" path="lib_hsf/hsf.service.tbremoting.invoke.future-1.4.9.3.jar"/>
+	<classpathentry kind="lib" path="lib_hsf/hsf.service.tbremoting.invoke.oneway-1.4.9.3.jar"/>
+	<classpathentry kind="lib" path="lib_hsf/hsf.service.tbremoting.invoke.reliable-1.4.9.3.jar"/>
+	<classpathentry kind="lib" path="lib_hsf/hsf.service.tbremoting.invoke.sync-1.4.9.3.jar"/>
+	<classpathentry kind="lib" path="lib_hsf/hsf.service.tps-1.4.9.3.jar"/>
+	<classpathentry kind="lib" path="lib_hsf/hsf.services-1.4.9.3.jar"/>
+	<classpathentry kind="lib" path="lib_hsf/hsf.stableswitch-1.4.9.3.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
