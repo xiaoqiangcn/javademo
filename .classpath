@@ -36,5 +36,6 @@
 	<classpathentry kind="lib" path="lib_hsf/hsf.service.tps-1.4.9.3.jar"/>
 	<classpathentry kind="lib" path="lib_hsf/hsf.services-1.4.9.3.jar"/>
 	<classpathentry kind="lib" path="lib_hsf/hsf.stableswitch-1.4.9.3.jar"/>
+	<classpathentry kind="lib" path="lib/servlet-api-2.3.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
